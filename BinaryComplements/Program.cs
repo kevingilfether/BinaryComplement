@@ -14,7 +14,15 @@ namespace BinaryComplements
 		}
 		public static int Complementer (int input)
 		{
-			
+			string binaryInput = Convert.ToString (input, 2);
+			string binaryNegate;
+			foreach (char character in binaryInput) 
+			{
+				if (character == '1')
+					binaryNegate += '0';
+				else
+					binaryNegate += '1';
+			}
 		}
 	}
 }
