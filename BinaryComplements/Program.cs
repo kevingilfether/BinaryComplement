@@ -26,7 +26,9 @@ namespace BinaryComplements
 				else
 					binaryNegate += '1';
 			}
-			int baseTenified = Convert.ToInt32 (binaryNegate, 10);
+			Console.WriteLine (binaryInput);
+			Console.WriteLine (binaryNegate);
+			int baseTenified = Convert.ToInt32 (binaryNegate, 2);
 			return baseTenified;
 		}
 	}
