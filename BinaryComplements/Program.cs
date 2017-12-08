@@ -6,7 +6,15 @@ namespace BinaryComplements
 	{
 		public static void Main (string[] args)
 		{
-			Console.WriteLine ("Hello World!");
+			//Goal - To take a base 10 integer, find its binary counterpart
+			//negate the binary, render it in base 10, and return that sucker
+
+
+
+		}
+		public static int Complementer (int input)
+		{
+			
 		}
 	}
 }
